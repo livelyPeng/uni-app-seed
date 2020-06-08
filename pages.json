@@ -1,0 +1,71 @@
+{
+	"pages": [ // pages数组中第一项表示应用启动页
+		{
+			"path": "pages/homeModule/viewPage/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/homeModule/viewPage/my",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/homeModule/viewPage/texts",
+			"style": {
+				"navigationBarTitleText": "测试页面",
+				"app-plus": {
+					"bounce": "vertical",
+					"titleNView": {
+						"buttons": [{
+							"fontSize": "22px",
+							"color": "#999999"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/accountModule/viewPage/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"app-plus": {
+					"bounce": "vertical",
+					"titleNView": {
+						"buttons": [{
+							"fontSize": "22px",
+							"color": "#999999"
+						}]
+					}
+				}
+			}
+		}
+    ],
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#007AFF",
+		"borderStyle": "black",
+		"backgroundColor": "#F8F8F8",
+		"list": [{
+				"pagePath": "pages/homeModule/viewPage/index",
+				// "iconPath": "static/component.png",
+				// "selectedIconPath": "static/componentHL.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/homeModule/viewPage/my",
+				// "iconPath": "static/api.png",
+				// "selectedIconPath": "static/apiHL.png",
+				"text": "我的"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

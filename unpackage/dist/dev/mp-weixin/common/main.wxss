@@ -1,0 +1,8 @@
+#uni-app {
+	height: 100%;width: 100%;font-size: 14rpx;box-sizing: border-box;margin: 0;
+  padding: 0;background-color: $main-color;
+}
+._div, ._object, ._iframe, applet, ._object, ._h1, ._h2, ._h3, ._h4, ._h5, ._h6, ._p, ._blockquote, ._pre, ._address, ._dl, ._dt, ._dd, ._ol, ._ul, ._li, ._table, ._caption, ._tbody, ._tfoot, ._thead, ._tr, ._th, ._td, ._article, ._aside, canvas, ._details, progress ._embed, ._figure, ._figcaption, ._footer, ._header, ._menu, ._nav, ._output, ._ruby, ._section, ._summary, ._time, ._mark, audio, video {
+	margin: 0;padding: 0;border: 0;vertical-align: baseline
+}
+

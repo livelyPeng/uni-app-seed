@@ -1,0 +1,19 @@
+.content {
+  text-align: center;
+  height: 400rpx;
+}
+.content .logo {
+  height: 200rpx;
+  width: 200rpx;
+  margin-top: 200rpx;
+}
+.content .btn {
+  margin-top: 20rpx;
+  font-size: 40rpx;
+  background-color: antiquewhite;
+}
+.content .title {
+  font-size: 36rpx;
+  color: #8f8f94;
+}
+

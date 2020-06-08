@@ -1,0 +1,1 @@
+<view class="content"><view><text class="title">{{title}}</text><view data-event-opts="{{[['tap',[['loginClick',['$event']]]]]}}" class="btn _div" bindtap="__e">点击我进行登陆哦!</view></view></view>
